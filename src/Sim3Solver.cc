@@ -18,11 +18,11 @@
 * along with ORB-SLAM. If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "Sim3Solver.h"
+#include "Sim3Solver.hpp"
 
 #include <vector>
 #include <cmath>
-#include <opencv/cv.h>
+#include <opencv2/opencv.hpp>
 #include <ros/ros.h>
 
 #include "KeyFrame.h"
